@@ -1,0 +1,11 @@
+#这段表示注册中心的地址是http://localhost:8761/eureka/，
+#与eureka server中的defaultZone对应
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#这段表示注册到注册中心里面，本应用的名称就是third-part-index-data-project
+spring:
+  application:
+    name: third-part-index-data-project
